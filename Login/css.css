@@ -1,0 +1,82 @@
+/* Reset default spacing */
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Page background */
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Main box */
+.container {
+    background-color: #ffffff;
+    width: 320px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Headings */
+h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #444;
+    margin-bottom: 10px;
+}
+
+/* Forms */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Input fields */
+input {
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Button */
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Toggle text */
+.toggle {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.toggle a {
+    color: #4CAF50;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.toggle a:hover {
+    text-decoration: underline;
+}
